@@ -6,7 +6,7 @@
 [subrepo]
 	remote = git@github.com:madgeek-arc/dataSpaceUI.git
 	branch = main
-	commit = 12202e43553e387b55c0155946aa233df413f864
-	parent = 15a4a66b639c76ba4c5c845411aff936bc7310ff
+	commit = 60134e8d178c8155ab2b61ac343ee7747da06be4
+	parent = fd601461ceec0e8db1d57704825afe490ee6daa6
 	method = merge
 	cmdver = 0.4.3
