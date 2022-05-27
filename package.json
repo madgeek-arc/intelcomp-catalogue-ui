@@ -3,8 +3,10 @@
   "version": "0.0.0",
   "scripts": {
     "ng": "ng",
-    "start": "ng serve",
+    "start": "ng serve --proxy-config proxy.conf.json",
     "build": "ng build",
+    "build:prod": "ng build --configuration=production --output-hashing=all",
+    "build:beta": "ng build --configuration beta",
     "watch": "ng build --watch --configuration development",
     "test": "ng test"
   },
@@ -23,9 +25,10 @@
     "@ng-select/ng-select": "^8.1.1",
     "bitset": "^5.1.1",
     "ng2-date-picker": "^13.1.1",
-    "uikit": "^3.7.6",
+    "node-sass": "^7.0.1",
     "rxjs": "~7.5.0",
     "tslib": "^2.3.0",
+    "uikit": "^3.7.6",
     "zone.js": "~0.11.4"
   },
   "devDependencies": {

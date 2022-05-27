@@ -39,6 +39,7 @@
             "stylePreprocessorOptions": {
               "includePaths": [
                 "src/styles",
+                "src/dataSpaceUI/styles",
                 "./node_modules/uikit/src/scss"
               ]
             },

@@ -2,21 +2,5 @@
 
 @import 'src/dataSpaceUI/assets/css/intelcomp-variable-overwrites';
 
-/* UIKit */
-@import "variables-theme.scss";
-@import "mixins-theme.scss";
-
-@import 'src/dataSpaceUI/assets/css/intelcomp-mixin-overwrites';
-
-/* UIKit */
-@import "uikit-theme.scss";
-
-/* Custom SCSS/SASS Files */
-// trows huge error
-//@import 'src/dataSpaceUI/styles/styles';
-
-/* project specific scss */
-@import 'src/dataSpaceUI/assets/css/intelcomp-custom';
-
-/* ng-select theme */
-@import "~@ng-select/ng-select/themes/default.theme.css";
+/* intelcomp SCSS */
+@import '../assets/scss/intelcomp-custom';
