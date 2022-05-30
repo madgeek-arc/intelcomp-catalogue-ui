@@ -4,7 +4,7 @@ import {RouterModule, Routes} from '@angular/router';
 const routes: Routes = [
   {
     path: '',
-    loadChildren: () => import('../dataSpaceUI/pages/dataSpaceUI.module').then(m => m.DataSpaceUIModule)
+    loadChildren: () => import('../dataSpaceUI/dataSpaceUI.module').then(m => m.DataSpaceUIModule)
   }
 ];
 

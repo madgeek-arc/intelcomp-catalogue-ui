@@ -5,8 +5,8 @@ import {AppComponent} from './app.component';
 import {AppRoutingModule} from "./app-routing.module";
 import {HttpClientModule} from "@angular/common/http";
 import {FormsModule, ReactiveFormsModule} from "@angular/forms";
-import {DataSpaceUIModule} from "../dataSpaceUI/pages/dataSpaceUI.module";
-import {ReusableComponentsModule} from "../dataSpaceUI/pages/shared/reusablecomponents/reusable-components.module";
+import {DataSpaceUIModule} from "../dataSpaceUI/dataSpaceUI.module";
+import {ReusableComponentsModule} from "../dataSpaceUI/shared/reusablecomponents/reusable-components.module";
 
 @NgModule({
   declarations: [
